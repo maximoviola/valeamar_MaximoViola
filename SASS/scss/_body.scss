@@ -1,0 +1,111 @@
+.padre{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+	height: 100vh;
+}
+.body__pantallaDividida{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-items: center;
+	align-items: flex-start;
+	padding-top: 7px;
+	height: 750px;
+	width: 80vw;
+	margin: auto;
+
+}	
+.carouselExampleControls{
+	width:50%;
+	height:400px;
+}
+
+.index__contenedor {  
+	font-size: 1.1rem !important;
+	font-family: Helvetica;
+	width: 50%;
+	height: 400px;			
+	padding-left: 35px;
+	text-align: center;
+	justify-items: center;
+	justify-content: center;
+	padding-top:60px ;
+	color: 	$colorPrincipal;
+	margin-bottom: 200px;
+	.index__titulo {
+		font-family: lemon Milk, sans-serif;
+		font-weight: bold;
+		color: $colorPrincipal;
+		font-size: 40px;
+		text-align: center;
+		padding-top: 22px;
+		}
+
+	.index__parrafo{
+		display:flex;
+		flex-direction:column;
+		flex-wrap:nowrap;
+		align-items:center;
+		font-family: lemon Milk, sans-serif;
+		font-weight: lighter;
+		color: $colorPrincipal;
+		padding-left: 15%;
+		font-size: 1.18rem;
+		max-width: 80%;
+		text-align: center;
+		display: block;
+
+		
+		.boton{   /*boton de Productos*/
+			width: 140px;
+			height: 50px;
+			background-color: $colorPrincipal;
+			font-family: lemon milk;
+			font-size: 16px;
+			text-transform: lowercase;
+			font-weight: lighter;
+			color: white;
+			border: none;
+			border-radius: 10px;
+			box-shadow: 2px 2px 5px #999;
+			padding: 5px;
+			text-decoration: none;
+		
+		}	
+	}
+}
+
+h1 {
+	font-family: lemon Milk, sans-serif;
+	font-weight: bold;
+	color: $colorPrincipal;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+	}
+#bienvenidos{ 
+	font-size: 1em;
+	width: 100%;
+}
+
+
+.index__logo {
+	width: 10vw;
+	max-width: 100px;
+	min-width: 30px;
+}
+
+
+
+
+.carousel-inner  {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 78px !important;
+}
+.carousel-control-next {
+	margin-top: 80px;
+}

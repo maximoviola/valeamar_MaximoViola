@@ -1,0 +1,78 @@
+.body__frases{
+    height:1200px;
+}
+.frase__footer{
+	color: $colorPrincipal;
+	display: block;
+	padding-top: 30px;
+    margin-top:930px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 1rem;
+    position: absolute;
+
+}
+.contenedorFrase{
+    display:flex;
+    flex-direction:column;
+    padding-top: 100px;
+    height: 90vh;
+    min-width: 360px;
+    .frase{
+        list-style: none;
+        text-align:center;
+        .frase__renglon_1{
+            font-size:$fontFrase+100;
+            color: $colortext1;
+            }
+        
+        .frase__renglon_2{
+            font-size:$fontFrase/2+200;
+            color: $colortext2;
+            }
+        
+        .frase__renglon_3{
+            font-size:$fontFrase*3.4;
+            color: $colortext3;
+            }
+        
+        .frase__renglon_4{
+            font-size:($fontFrase*2.6+100);
+            color: $colorPrincipal;
+            }
+    }
+.Frase__titulo{
+    background-color: pink;
+}
+
+    
+}
+ //condicionales: se aplica al H1  de la pagina " frase" según varíe el nombre PEPE.
+
+ $nombre: pepe;
+
+.Frase__titulo{
+    padding-bottom: 50px;
+ @if ($nombre== pepe){
+     color: red;
+ } @else{
+     color: gold;
+ }
+}
+
+//BUCLE
+
+@for $i from 1 through 3{
+    .palabra-#{$i}{font-size: 1em + $i;}
+    }
+
+    //each - se muestra en el style.css en linea nº 863
+
+
+    $lista1: red, orange, yellow, green;
+        @each $color in $lista1 {
+            .#{$color}{
+                background-color: $color;
+            }
+        }
+

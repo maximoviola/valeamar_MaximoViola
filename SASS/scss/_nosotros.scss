@@ -1,0 +1,64 @@
+
+    .nosotros__contenedor {  
+        font-size: 1.1rem !important;
+	font-family: Helvetica;
+	width: 50%;
+	height: 400px;			
+	padding-left: 35px;
+	text-align: center;
+	justify-items: center;
+	justify-content: center;
+	padding-top:60px ;
+	color: 	$colorPrincipal;
+	margin-bottom: 200px;
+	.nosotros__titulo {
+		font-family: lemon Milk, sans-serif;
+		font-weight: bold;
+		color: $colorPrincipal;
+		font-size: 40px;
+		text-align: center;
+		padding-top: 22px;
+		}
+
+        .nosotros__parrafo {
+            font-size: 1.1rem !important;
+            font-family: Helvetica;
+            .boton{   /*boton de Productos*/
+                width: 140px;
+                height: 50px;
+                background-color: $colorPrincipal;
+                font-family: lemon milk;
+                font-size: 16px;
+                text-transform: lowercase;
+                font-weight: lighter;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                
+                box-shadow: 2px 2px 5px #999;
+                padding: 5px;
+                text-decoration: none;
+            
+            }
+        }
+    
+    }
+
+    .nosotros__imagen-back{			
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        margin-top: 70px;
+        padding-top: 2px;
+        .nosotros__imagen{
+            width: 100%;
+            display: flex;
+            max-width: 500px;
+            min-width: 220px;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        .nosotros__imagen:hover{
+            transform: rotate(0deg) scale(1.05) skew(1deg) translate(-12px);
+        }
+    }

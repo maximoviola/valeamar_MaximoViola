@@ -1,0 +1,36 @@
+footer{
+	color: $colorPrincipal;
+	padding-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 0.5rem;
+	justify-content: center;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    border: none;
+	color: rgb(100, 99, 99);
+	font-size: 24px;
+	background-color: transparent;
+	margin-bottom: 7px;
+	
+}
+
+.footer__nav{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	//align-content: space-around;
+	color: rgb(100, 99, 99);
+	font-size: 12px;
+	margin-right: 3px;
+	height: 80px;
+	width: 80vw;
+	position: relative;
+
+}
+.footer__copyright{
+	font-size:0.6rem;
+	margin-left: 7px;
+}

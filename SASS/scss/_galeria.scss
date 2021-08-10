@@ -1,0 +1,43 @@
+.galeria-padre{
+	display:flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+}
+.gallery{
+	padding: 80px;
+}
+.gallery img{
+	background-color: $colorFondoClaro;
+	padding: 10px;
+	margin: 5px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.galeria{
+	display: flex;
+	padding-top: 25px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 30px auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.foto{
+	width: 200px;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 65px;
+	}
+
+    
+#titulo-galeria{
+    padding-top: 100px;
+    text-align: center;
+    
+    }
+    
