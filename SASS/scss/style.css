@@ -886,6 +886,9 @@ footer {
 		width: 80vh;
 		justify-content: space-between;
 	}*/
+  .navbar-brand {
+    font-size: 20px;
+  }
   #h1-index {
     font-family: lemon, sans-serif;
     font-weight: bold;
